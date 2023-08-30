@@ -10,6 +10,7 @@ const config: Config = {
         extend: {
             backgroundImage: {
                 "firs-block": "url('/images/first-block.jpg')",
+                "ads-block": "url('/images/justice.jpg')",
             },
             colors: {
                 black: "#000000",
