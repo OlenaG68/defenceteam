@@ -5,7 +5,7 @@ const FirstBlock = () => {
     return (
         <section className="w-full h-screen bg-firs-block bg-cover">
             <div className="absolute top-4 left-4 text-white font-extrabold text-2xl">
-                DEFENCE TEAM
+                DEFENSE TEAM
             </div>
             <div className=" bg-black bg-opacity-50 w-full h-full flex flex-col items-center justify-center text-center">
                 {" "}
