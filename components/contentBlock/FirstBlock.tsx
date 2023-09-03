@@ -3,7 +3,7 @@ import Button from "../UI/Button";
 
 const FirstBlock = () => {
     return (
-        <section className="w-full h-screen bg-firs-block bg-cover">
+        <section className="w-full h-screen bg-firs-block bg-cover bg-center">
             <div className="absolute top-4 left-4 text-white font-extrabold text-2xl">
                 DEFENSE TEAM
             </div>

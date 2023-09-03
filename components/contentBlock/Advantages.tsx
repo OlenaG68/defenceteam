@@ -1,35 +1,24 @@
-import React from "react";
-
+"use client";
+import React, { useState } from "react";
+import CountUp from "react-countup";
 const Advantages = () => {
     const advantages = [
         {
             title: "Перевага 1",
             id: 1,
+            icon: "icon",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
         },
         {
             title: "Перевага 2",
             id: 2,
+            icon: "icon",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
         },
         {
             title: "Перевага 3",
             id: 3,
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        },
-        {
-            title: "Перевага 4",
-            id: 4,
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        },
-        {
-            title: "Перевага 5",
-            id: 5,
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        },
-        {
-            title: "Перевага 6",
-            id: 6,
+            icon: "icon",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
         },
     ];
@@ -39,9 +28,14 @@ const Advantages = () => {
                 <h1 className="text-4xl font-semibold  text-white">
                     Чому обирають саме нас?
                 </h1>
-                <div className="flex gap-2 flex-wrap justify-between">
+                <div className="flex flex-col md:flex-row gap-2 flex-wrap justify-between">
                     {advantages.map((advantage) => (
                         <div className=" basis-1/4 mt-20" key={advantage.id}>
+                            <div className="flex items-center justify-center">
+                                <div className="text-white">
+                                    {advantage.icon}
+                                </div>
+                            </div>
                             <h2 className="font-semibold text-2xl mt-7 text-white">
                                 {advantage.title}
                             </h2>
@@ -50,6 +44,47 @@ const Advantages = () => {
                             </p>
                         </div>
                     ))}
+                </div>
+                <div className=" mt-40 flex flex-col md:flex-row justify-around">
+                    <div className="">
+                        <CountUp
+                            start={80}
+                            end={99}
+                            duration={5}
+                            suffix="%"
+                            delay={4}
+                            className="text-white text-7xl font-bold"
+                        />
+                        <div className="text-white mt-8 text-2xl font-semibold">
+                            Задоволених клієнтів
+                        </div>
+                    </div>
+                    <div>
+                        <CountUp
+                            start={20}
+                            end={30}
+                            duration={5}
+                            prefix="+"
+                            delay={4}
+                            className="text-white text-7xl font-bold"
+                        />
+                        <div className="text-white mt-8 text-2xl font-semibold">
+                            Успішно виграних справ
+                        </div>
+                    </div>
+                    <div>
+                        <CountUp
+                            start={1200}
+                            end={1500}
+                            duration={3}
+                            prefix="+"
+                            delay={4}
+                            className="text-white text-7xl font-bold"
+                        />
+                        <div className="text-white mt-8 text-2xl font-semibold">
+                            Наданих консультацій
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
