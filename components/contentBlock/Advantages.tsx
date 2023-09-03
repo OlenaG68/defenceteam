@@ -24,7 +24,7 @@ const Advantages = () => {
     ];
     return (
         <section className=" bg-blue py-[100px]">
-            <div className="container text-center ">
+            <div className="container text-center px-3 md:px-0 ">
                 <h1 className="text-4xl font-semibold  text-white">
                     Чому обирають саме нас?
                 </h1>
@@ -45,7 +45,7 @@ const Advantages = () => {
                         </div>
                     ))}
                 </div>
-                <div className=" mt-40 flex flex-col md:flex-row justify-around">
+                <div className=" mt-40 flex flex-col md:flex-row gap-20 items-center justify-around">
                     <div className="">
                         <CountUp
                             start={80}
@@ -64,7 +64,7 @@ const Advantages = () => {
                             start={20}
                             end={30}
                             duration={5}
-                            prefix="+"
+                            suffix="+"
                             delay={4}
                             className="text-white text-7xl font-bold"
                         />

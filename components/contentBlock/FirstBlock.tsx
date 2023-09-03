@@ -9,9 +9,9 @@ const FirstBlock = () => {
             </div>
             <div className=" bg-black bg-opacity-50 w-full h-full flex flex-col items-center justify-center text-center">
                 {" "}
-                <div className=" container">
+                <div className=" container px-3 md:px-0">
                     {" "}
-                    <h1 className="text-white text-3xl font-bold">
+                    <h1 className="text-white text-3xl md:text-5xl font-bold">
                         Заголовок з назвою статті і унікальною пропозицією
                     </h1>
                     <h2 className=" text-white text-xl mt-7">

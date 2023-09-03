@@ -31,15 +31,19 @@ const HowWeWork = () => {
             </h1>
             {steps.map((step) => (
                 <div
-                    className="flex justify-center items-center py-16  border-b border-border"
+                    className="flex flex-col md:flex-row justify-center items-center py-16  border-b border-border"
                     key={step.id}
                 >
-                    <div className="text-[130px] text-right font-black text-blue ">
+                    <div className="text-[130px] text-center lg:text-right font-black text-blue ">
                         {step.id}
                     </div>
-                    <div className="basis-3/6 ml-24">
-                        <h3 className=" text-2xl font-bold">{step.title}</h3>
-                        <p className=" mt-5">{step.desc}</p>
+                    <div className="basis-auto md:basis-3/6 md:ml-24">
+                        <h3 className=" text-2xl text-center lg:text-left font-bold">
+                            {step.title}
+                        </h3>
+                        <p className=" mt-5 text-center lg:text-left px-3 md:px-0">
+                            {step.desc}
+                        </p>
                     </div>
                 </div>
             ))}

@@ -16,7 +16,7 @@ const AboutUs = () => {
                 <h1 className="text-4xl text-center md:text-left font-semibold">
                     Про нас
                 </h1>
-                <p className="mt-8 ">
+                <p className="mt-8 px-3 md:px-0">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation

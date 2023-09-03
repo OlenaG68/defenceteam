@@ -24,7 +24,7 @@ const HelpYouWith = () => {
     return (
         <section className="container my-32 flex flex-col items-center justify-center text-center">
             <h1 className="text-4xl font-semibold">Ми вам пoтрібні якщо:</h1>
-            <div className="flex flex-col md:flex-row gap-2 lg:gap-6 mt-24">
+            <div className="flex flex-col md:flex-row gap-2 lg:gap-6 mt-24 px-3 md:px-0">
                 {cards.map((card) => (
                     <div
                         key={card.id}
