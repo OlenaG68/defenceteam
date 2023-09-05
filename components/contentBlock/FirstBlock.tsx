@@ -11,16 +11,16 @@ const FirstBlock = () => {
                 {" "}
                 <div className=" container px-3 md:px-0">
                     {" "}
-                    <h1 className="text-white text-3xl md:text-4xl font-bold leading-snug md:leading-snug">
+                    <h1 className="text-white text-xl md:text-4xl font-bold leading-snug md:leading-snug">
                         Юридичний супровід у справах про адміністративні
                         правопорушення, відповідальність за які передбачена ст.
                         130 КУпАП.
                     </h1>
-                    <h2 className=" text-white text-xl mt-7 w-1/2 m-auto">
+                    {/* <h2 className=" text-white text-xl mt-7 w-1/2 m-auto">
                         Захист та представництво здійснює адвокат
                         <br />
                         <strong>Надія Василівна Бойчук</strong>
-                    </h2>
+                    </h2> */}
                     <Button />
                 </div>
             </div>
