@@ -14,17 +14,17 @@ const AboutUs = () => {
             </div>
             <div className="mt-8 md:mt-0 basis-1/2">
                 <h1 className="text-4xl text-center md:text-left font-semibold">
-                    Про нас
+                    Про мене
                 </h1>
                 <p className="mt-8 px-3 md:px-0">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    Давайте знайомитись. Надія Василівна Бойчук. Адвокат.
+                    Здійснюю захист та представництво у кримінальних
+                    провадженнях, справах про адміністративні правопорушення та
+                    цивільних справах. Більше 10 років працювала в судах першої
+                    та апеляційної інстанцій на посаді помічника судді.
+                    Свідоцтво про право на заняття адвокатською діяльністю №
+                    001039, видане Радою адвокатів Івано-Франківської області на
+                    підставі рішення № 1/11 від 30 грудня 2015 року.
                 </p>
             </div>
         </section>

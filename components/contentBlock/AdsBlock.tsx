@@ -9,14 +9,19 @@ const AdsBlock = () => {
                 <div className="container text-center">
                     <h1 className="text-xl md:text-3xl font-semibold  text-white">
                         {" "}
-                        Отримай захист вищого рівня з гарантіями на результат
+                        Переконана, що стосунки з клієнтом повинні базуватися на
+                        основі взаємної поваги та довіри.
                     </h1>
                     <p className="text-white text-base md:text-lg mt-7 px-3 md:px-0">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
+                        Тут Ви не побачите статистики про кількість «виграних»
+                        справ, адже для мене надання правової допомоги клієнтам
+                        не битва і не гра, а ефективна комунікація, до якої
+                        підходжу розумно, помірковано, без пристрастей. Також не
+                        можу гарантувати клієнтам досягнення певного результату,
+                        проте я гарантую повну відданість своїй справі. З свого
+                        боку, я зроблю все можливе в межах знань та професійних
+                        навичок, щоб захистити, відстояти чи відновити порушені
+                        права, свободи та інтереси.
                     </p>
                     <Button />
                 </div>
