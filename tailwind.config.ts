@@ -15,8 +15,8 @@ const config: Config = {
             colors: {
                 black: "#000000",
                 white: "#ffffff",
-                blue: "#1E47FF",
-                border: "rgba(30, 71, 255, 0.37)",
+                blue: "#65dbb4",
+                border: "#64bda0",
                 gray: "#666",
             },
             container: {
