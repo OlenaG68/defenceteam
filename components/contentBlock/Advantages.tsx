@@ -25,7 +25,7 @@ const Advantages = () => {
     return (
         <section className=" bg-blue py-[100px]">
             <div className="container text-center px-3 md:px-0 ">
-                <h1 className="text-4xl font-semibold  text-white">
+                <h1 className="text-4xl font-semibold text-white ">
                     Чому обирають саме мене?
                 </h1>
                 <div className="flex flex-col md:flex-row gap-2 flex-wrap justify-between">
